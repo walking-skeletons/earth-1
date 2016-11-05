@@ -7,6 +7,10 @@ class Human {
   sayHi() {
     console.log(`Hi I'm ${this.firstName} ${this.lastName}`);
   }
+  
+  sayHello() {
+    console.log(`Hello I'm ${this.firstName} ${this.lastName}`);
+  }
 }
 
 module.exports = {
